@@ -1,0 +1,33 @@
+{
+  "name": "videocallgames",
+  "version": "1.0.0",
+  "description": "A collection of games programmed for use on video calls with friends and family.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieT2319/videocallgames.git"
+  },
+  "keywords": [
+    "board games",
+    "word games",
+    "games"
+  ],
+  "author": "Julie Theriault",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulieT2319/videocallgames/issues"
+  },
+  "homepage": "https://github.com/JulieT2319/videocallgames#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mongoose": "^5.9.13",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
