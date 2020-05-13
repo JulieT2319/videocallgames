@@ -23,22 +23,22 @@ CREATE TABLE dice (
   face18 VARCHAR(15),
   face19 VARCHAR(15),
   face20 VARCHAR(15),
-  gameName VARCHAR(60) NOT NULL,
-  secondGame VARCHAR(60)
+  game_name VARCHAR(60) NOT NULL,
+  second_game VARCHAR(60)
 );
 
 CREATE TABLE cattegories (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   cattegory VARCHAR(280) NOT NULL,
-  gameName VARCHAR(60) NOT NULL,
-  secondGame VARCHAR(60),
-  listGroup INT
+  game_name VARCHAR(60) NOT NULL,
+  second_game VARCHAR(60),
+  list_group INT
 )
 
 CREATE TABLE images (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    imageLink VARCHAR(900) NOT NULL,
-    imageArtist VARCHAR(100) NOT NULL,
-    gameName VARCHAR(60) NOT NULL,
-    secondGame VARCHAR(60)
+    image_link VARCHAR(900) NOT NULL,
+    image_artist VARCHAR(100) NOT NULL,
+    game_name VARCHAR(60) NOT NULL,
+    second_game VARCHAR(60)
 )
