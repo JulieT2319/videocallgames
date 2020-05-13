@@ -48,7 +48,7 @@ CREATE TABLE cattegories (
   eighth_game VARCHAR(60),
   ninth_game VARCHAR(60),
   tenth_game VARCHAR(60),
-  list_group INT
+  list_group VARCHAR(10)
 )
 
 CREATE TABLE images (
