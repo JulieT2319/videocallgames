@@ -107,4 +107,4 @@ VALUES ('A','A','E','E','G','N','boggle new'),
 ('N','O','O','T','U','W','big boggle 2012'),
 ('O','O','O','T','T','U','big boggle 2012');
 INSERT INTO dice (face1, face2, face3, face4, face5, face6, face7, face8, face9, face10, face11, face12, face13, face14, face15, face16, face17, face18, face19, face20, game_name)
-('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','R','S','T','W','scattergories');
+VALUES ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','R','S','T','W','scattergories');

@@ -49,7 +49,7 @@ CREATE TABLE cattegories (
   ninth_game VARCHAR(60),
   tenth_game VARCHAR(60),
   list_group VARCHAR(10)
-)
+);
 
 CREATE TABLE images (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -65,4 +65,4 @@ CREATE TABLE images (
   eighth_game VARCHAR(60),
   ninth_game VARCHAR(60),
   tenth_game VARCHAR(60)
-)
+);
