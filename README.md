@@ -14,7 +14,7 @@ Choose a game to play.
 
 ### Technologies used
 
-This project was built using express, handlebars, mysql, html, css and javascript. 
+This project was built using express, handlebars, mysql, html, css and javascript.
 
 ### Thanks to
 
