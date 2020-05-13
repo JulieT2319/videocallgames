@@ -25,7 +25,6 @@
     "express": "^4.17.1",
     "express-handlebars": "^4.0.4",
     "moment": "^2.25.3",
-    "mongoose": "^5.9.13",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
