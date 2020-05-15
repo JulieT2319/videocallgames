@@ -16,6 +16,13 @@ orm = {
 			cb(results);
 		});
 	},
+	selectForGameFamily: function (table, gameCol, gameName, cb) {
+		const query = "SELECT * FROM ?? WHERE ?? LIKE ?";
+		connection.query(query, [table, gameCol, gameName], function (err, results) {
+			if (err) throw err;
+			cb(results);
+		});
+	},
 	insertOne: function (table, columns, values, cb) {
 		const query = "INSERT INTO ?? (??) VALUES (?);";
 		connection.query(query, [table, columns, values], function (err, results) {
