@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/JulieT2319/videocallgames#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^4.0.4",
     "moment": "^2.25.3",
     "mysql": "^2.18.1"
